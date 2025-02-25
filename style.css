@@ -1,0 +1,225 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #6b4fbb;
+    --secondary-color: #1a1a1a;
+    --accent-color: #8a6bce;
+    --text-color: #b794f6;
+    --light-bg: #1a1a1a;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #1a1a1a, #2d2d2d, #1a1a1a);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: linear-gradient(45deg, #1a1a1a, #2d2d2d, #1a1a1a);
+    background-size: 200% 200%;
+    animation: gradientBG 15s ease infinite;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+nav {
+    background: #1a1a1a;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+.nav-download-btn {
+    background: var(--accent-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: white !important;
+}
+
+.nav-download-btn:hover {
+    background: var(--primary-color);
+}
+
+#features h2, #how-to h2, #faq h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 120px 0 60px;
+    background: rgba(107, 79, 187, 0.1);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+    background: var(--light-bg);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background: #2d2d2d;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    color: var(--text-color);
+}
+
+/* How To Section */
+.how-to {
+    padding: 60px 0;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.step {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.step-number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 60px 0;
+    background: var(--light-bg);
+}
+
+.faq-items {
+    margin-top: 2rem;
+}
+
+.faq-item {
+    background: #2d2d2d;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    color: var(--text-color);
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 60px 0;
+    text-align: center;
+    background: rgba(107, 79, 187, 0.1);
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #c0392b;
+}
+
+/* Footer */
+footer {
+    background: var(--secondary-color);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+}
